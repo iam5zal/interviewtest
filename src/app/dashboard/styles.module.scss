@@ -1,0 +1,39 @@
+/* src/app/dashboard/styles.module.scss */
+
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1rem;
+  .tableWrapper {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f0f9ff; /* light-blue-bg */
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table thead {
+  background: #bae6fd; /* header-blue */
+}
+
+.table thead th {
+  color: #0369a1;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background: #e0f2fe;
+}
+
+}
+
